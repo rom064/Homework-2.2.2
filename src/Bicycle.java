@@ -1,6 +1,8 @@
 public class Bicycle extends ServicedEquipment {
-    public Bicycle(String modelName, int wheelsCount) {
-        super(modelName, wheelsCount);
+
+    private static final int WHEELS_COUNT = 2;
+    public Bicycle(String modelName) {
+        super(modelName, WHEELS_COUNT);
     }
 
 }

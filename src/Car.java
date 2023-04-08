@@ -1,6 +1,7 @@
-public class Car extends ServicedEquipment {
-    public Car(String modelName, int wheelsCount) {
-        super(modelName, wheelsCount);
-    }
+public class Car extends OverallTransport {
+    private static  final  int WHEELS_COUNT = 4;
 
+    public Car(String modelName) {
+        super(modelName, WHEELS_COUNT);
+    }
 }
